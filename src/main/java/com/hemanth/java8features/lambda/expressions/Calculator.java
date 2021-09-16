@@ -1,3 +1,4 @@
+package com.hemanth.java8features.lambda.expressions;
 
 @FunctionalInterface
 public interface Calculator {

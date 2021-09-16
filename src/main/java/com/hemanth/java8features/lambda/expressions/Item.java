@@ -1,3 +1,5 @@
+package com.hemanth.java8features.lambda.expressions;
+
 import java.util.Objects;
 
 public class Item {
@@ -37,7 +39,7 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
+        return "com.hemanth.java8features.lambda.expressions.Item{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", quantity=" + quantity +
