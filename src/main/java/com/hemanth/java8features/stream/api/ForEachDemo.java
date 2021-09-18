@@ -80,5 +80,7 @@ public class ForEachDemo {
 
         map1.entrySet().stream().filter(k -> k.getKey()%2 == 0).forEach((s)-> System.out.println(s));
 
+        int array[] = new int[10];
+
     }
 }
