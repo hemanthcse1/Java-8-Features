@@ -50,6 +50,7 @@ public class MapReduceDemo {
 
         // Get employee whos grade is A
         // Get Salary of the employee
+        // get average of salary
         double averageSalary = EmployeeDAO.getEmployees().stream()
                 .filter(employee -> employee.getGrade().equalsIgnoreCase("A"))
                 .map(employee -> employee.getSalary())
